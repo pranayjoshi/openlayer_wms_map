@@ -54,6 +54,8 @@ it just tells that we just have to take an image of the src(source code) which i
 * You may also give a it a pre existing Height and width. by using {&, width, height)
 for ex:- ```  <img src="http://localhost:8080/geoserver/wms/reflect?layers=pranay:india_pranay&width=400"height="169" width="400"/> ```
 
+# the images for the process is in the process folder don't forget to check it out
+
 Thank you, 
 That's all for the tutorial
 
