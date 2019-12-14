@@ -29,6 +29,11 @@ The main motive of this program was to make the program as readable, easy and sh
 * create a new html file.
 * and just copy and paste the code I mentioned.
 * congratulations you are all set.
+# how to use the code
+* First you have to start your geoserver.
+* Then you may just open the html file in the chrome or start it using VsCode.
+* If you wnat to use it directly just copy and paste the link below.
+http://localhost:8080/geoserver/wms/reflect?format=application/openlayers&layers=pranay:india_pranay&width=800
 # why use my code
 As, it is very simple and updated, and also very small, which saves time.
 # how is it so Small while other codes of same are verybig.
