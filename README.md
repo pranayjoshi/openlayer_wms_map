@@ -33,7 +33,7 @@ The main motive of this program was to make the program as readable, easy and sh
 * First you have to start your geoserver.
 * Then you may just open the html file in the chrome or start it using VsCode.
 * If you wnat to use it directly just copy and paste the link below.
-http://localhost:8080/geoserver/wms/reflect?format=application/openlayers&layers=pranay:india_pranay&width=800
+http://localhost:8080/geoserver/wms/reflect?format=application/openlayers&layers=pranay:IND_pj&width=800
 # why use my code
 As, it is very simple and updated, and also very small, which saves time.
 # how is it so Small while other codes of same are verybig.
@@ -43,21 +43,21 @@ What WMS reflector do is it creates an open layer's layer or just make its image
 
 # Code Explaination
 * First of all i described that it is a HTML file.
-* in this line ``` <a href="http://localhost:8080/geoserver/wms/reflect?format=application/openlayers&layers=pranay:india_pranay"> ```
+* in this line ``` <a href="http://localhost:8080/geoserver/wms/reflect?format=application/openlayers&layers=pranay:IND_pj"> ```
 ``` <a href=""> ``` tells that it is a web link.
 ``` "http://localhost:8080/geoserver/wms/" ``` is the localserver address
 ``` reflect ``` returns it 
 ``` ?format=application/openlayers&layer ``` is to describe that it is openlayer based application format.
-``` pranay:india_pranay ``` workspace and layer for diasplaying. Should be entered in following manner
+``` pranay:IND_pj ``` workspace and layer for diasplaying. Should be entered in following manner
                               ``` {workspace name}:{layer name"} ```
-* in the last line ``` <img src="http://localhost:8080/geoserver/wms/reflect?layers=pranay:india_pranay&width=400"/> ```
+* in the last line ``` <img src="http://localhost:8080/geoserver/wms/reflect?layers=pranay:IND_pj&width=400"/> ```
 it just tells that we just have to take an image of the src(source code) which is the web link or the local server link.
 * Congrats you Geoserver layer can be opened in the open layer
 * just same the HTML file and open it(make sure your geoserver is not stopped)
 * A image will appear of the shapefile you created and uploaded on Geoserver.
 * click on it to view the "open layers view".
 * You may also give a it a pre existing Height and width. by using {&, width, height)
-for ex:- ```  <img src="http://localhost:8080/geoserver/wms/reflect?layers=pranay:india_pranay&width=400"height="169" width="400"/> ```
+for ex:- ```  <img src="http://localhost:8080/geoserver/wms/reflect?layers=pranay:IND_pj&width=400"height="169" width="400"/> ```
 
 # the images for the process is in the process folder don't forget to check it out
 
