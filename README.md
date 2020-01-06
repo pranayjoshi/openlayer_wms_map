@@ -8,7 +8,7 @@ The main motive of this program was to make the program as readable, easy and sh
 * Than, when you will install leave the default settings as it is. 
 * after the installation go to the search bar of your operating system and search for "start geoserver"., if it is there click on it and your server will be started. Else, try reinstalling itand repeat the process mentioned.
 * open your browser and type http://localhost:8080/geoserver/web/ a webportal of geo server will apear.
-* Just login using    username:- admin     passward:- geoserver
+* Just login using    username:- admin     password:- geoserver
 * a welcome screen of geoserver will open.
 * click on the "workspace" in the left corner and "add a new workspace" by giving it a name and any url(not needs to be real). fr ex: pranay
 * after creating click on the "stores" above the "workspace" in the data panel(left side). and add a new shape file(first option).
