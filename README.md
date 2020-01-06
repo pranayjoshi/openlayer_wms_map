@@ -5,13 +5,16 @@ The main motive of this program was to make the program as readable, easy and sh
 # requirements
 # Geoserver
 * download geoserver (you may download it any way you like), from the official link or from this [link](https://drive.google.com/file/d/1PkcyuIdH2vNFGb9rx1GofMHTDDhvzOx_/view?usp=sharing)(this is the custom setup made by me.
+![wdsaj](https://github.com/pranayteaches/openlayer_wms_map/blob/master/process/Installation.PNG)
 * Than, when you will install leave the default settings as it is. 
 * after the installation go to the search bar of your operating system and search for "start geoserver"., if it is there click on it and your server will be started. Else, try reinstalling itand repeat the process mentioned.
 * open your browser and type http://localhost:8080/geoserver/web/ a webportal of geo server will apear.
 * Just login using    username:- admin     password:- geoserver
 * a welcome screen of geoserver will open.
+![sada](https://github.com/pranayteaches/openlayer_wms_map/blob/master/process/login.PNG)
 * click on the "workspace" in the left corner and "add a new workspace" by giving it a name and any url(not needs to be real). fr ex: pranay
 * after creating click on the "stores" above the "workspace" in the data panel(left side). and add a new shape file(first option).
+![ff](https://github.com/pranayteaches/openlayer_wms_map/blob/master/process/stores.PNG)
 * download any shape file like a file. For ex. indian states.
 * in "stores" in the workspace choose the workspace you created.
 * below give any name to it, you may leave the description empty.
@@ -19,6 +22,7 @@ The main motive of this program was to make the program as readable, easy and sh
 * after click on the "layers" above "stores". than add new layer. than choose the name of shapefile you uploaded in add layers from.
 * than click on publish.
 * first of all give a name to your layer and than title, leave the other things as it is and than scroll down to "Bounding Boxes".
+![akl](https://github.com/pranayteaches/openlayer_wms_map/blob/master/process/layers.PNG)
 * After that you just need to click on "compute from data", for the "native bounding box" and than below for "lat/long bounding box", click on "compute from native bounds".
 * than click on save, congratulations your WMS layer has been created.
 # Open Layers
@@ -58,9 +62,11 @@ it just tells that we just have to take an image of the src(source code) which i
 * click on it to view the "open layers view".
 * You may also give a it a pre existing Height and width. by using {&, width, height)
 for ex:- ```  <img src="http://localhost:8080/geoserver/wms/reflect?layers=pranay:IND_pj&width=400"height="169" width="400"/> ```
-
+Image Of the Code written in VsCode
+![fesk](https://github.com/pranayteaches/openlayer_wms_map/blob/master/process/Vscode_html.PNG)
 # the images for the process is in the process folder don't forget to check it out
-
+# A ScreenShot Of The layer.
+![sad](https://github.com/pranayteaches/openlayer_wms_map/blob/master/process/map_image.PNG)
 Thank you, 
 That's all for the tutorial
 
