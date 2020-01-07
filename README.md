@@ -20,6 +20,7 @@ The main motive of this program was to make the program as readable, easy and sh
 * below give any name to it, you may leave the description empty.
 * at last browse the directry of shapefiles, for ex ``` D:\india```, and than click on save.
 * after click on the "layers" above "stores". than add new layer. than choose the name of shapefile you uploaded in add layers from.
+![sdas](https://github.com/pranayteaches/openlayer_wms_map/blob/master/process/3.jpg)
 * than click on publish.
 * first of all give a name to your layer and than title, leave the other things as it is and than scroll down to "Bounding Boxes".
 ![akl](https://github.com/pranayteaches/openlayer_wms_map/blob/master/process/layers.PNG)
