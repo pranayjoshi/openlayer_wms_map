@@ -49,6 +49,7 @@ The main motive of this program was to make the program as readable, easy and sh
 # Code Difference(WMS(Reflector) VS WMS(Standard)) 
 Here I will just provide you the code with the same function but one with (WMS(Reflector)) and one with (WMS(Standard)) 
 They Display the image set to display the feature for ``` pranay:IND_pj ```
+(NOTE: Both code are made by Pranay)
 ### WMS(Standard)
 ```
 <!doctype html>
