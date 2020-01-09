@@ -34,6 +34,79 @@ The main motive of this program was to make the program as readable, easy and sh
 * create a new html file.
 * and just copy and paste the code I mentioned.
 * congratulations you are all set.
+# WMS Layer
+* If you you don't want to use GeoWebCache, For just creating a code to view the preview of you 
+*
+* "The reflector can also create a simple instance of OpenLayers that shows the layers you specify in your request. One possible application is to turn the image above into a link that refers to the OpenLayers instance for the same feature, which is especially handy if you think a minority of your users will want to take closer look." -- [WMS Reflector Documentation](https://docs.geoserver.org/stable/en/user/tutorials/wmsreflector.html)
+### Difference
+|* WMS(Reflector)                                     |   WMS(Standard)     |
+| --------------------------------------------------- |  ---------------------------------------------------------------- |
+| * The main "PROS" small and simple code,            |      The Main "PROS" of WMS(standard)is that it can do many other task than  |
+|   with ease understand and saving of time.          |        just previewing one layer.                                            |
+| * The code is Readable and user friendly.           |     * That's why multiple layers could be displayed with more functionalities| 
+| * The main "CONS" of WMS Reflector is that          |       and adjusatability                                                     |
+|   it is only used to preview.                       |     * The code is nor Readable neither user friendly.                        | 
+| * So only a Single Layer could be shown at a time   |     * The main "CONS" of this is that the code is complex,                   |
+|   i.e you cannot show even the base layer.          |       not easy to understand and also take more time than WMS(Reflector)     | 
+
+# Code Difference(WMS(Reflector) VS WMS(Standard)) 
+Here I will just provide you the code with the same function but one with (WMS(Reflector)) and one with (WMS(Standard))               ### WMS(Standard)
+```
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.1.1/css/ol.css" type="text/css">
+    <style>
+      .map {
+        height: 400px;
+        width: 100%;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.1.1/build/ol.js"></script>
+    <title>OpenLayers By Pranay</title>
+  </head>
+  <body>
+    <h2>Pranay Map</h2>
+    <div id="map" class="map"></div>
+    <script type="text/javascript">
+      var map = new ol.Map({
+        target: 'map',
+        layers: [
+          new ol.layer.Tile({
+            source: new ol.source.OSM()
+          }),
+          new ol.layer.Tile({
+    				source: new ol.source.TileWMS({
+        		url: 'http://localhost:8080/geoserver/pranay/wms?',
+       			params: {
+              'LAYERS': 'pranay:IND_pj',
+              'VERSION': '1.1',
+              'FORMAT': 'image/png',
+              'TILED': true
+        		},
+    			})
+				})
+        ],
+        view: new ol.View({
+          center: ol.proj.fromLonLat([-88, 35]),
+          zoom: 4
+        })
+      });
+    </script>
+  </body>
+</html> 
+```
+### Code with WMS(Reflector)
+```
+<!DOCTYPE html>
+<html lang="en">
+    <a href="http://localhost:8080/geoserver/wms/reflect?format=application/openlayers&layers=pranay:IND_pj">
+      <img src="http://localhost:8080/geoserver/wms/reflect?layers=pranay:IND_pj&width=400"/>
+      </a>
+ </html>
+ ```
+### Results
+You may clearly see the difference in the code and in this case one would surely choose the WMS(Reflector) as the best option.
 # how to use the code
 * First you have to start your geoserver.
 * Then you may just open the html file in the chrome or start it using VsCode.
