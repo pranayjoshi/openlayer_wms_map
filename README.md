@@ -50,7 +50,9 @@ The main motive of this program was to make the program as readable, easy and sh
 |   i.e you cannot show even the base layer.          |       not easy to understand and also take more time than WMS(Reflector)     | 
 
 # Code Difference(WMS(Reflector) VS WMS(Standard)) 
-Here I will just provide you the code with the same function but one with (WMS(Reflector)) and one with (WMS(Standard))               ### WMS(Standard)
+Here I will just provide you the code with the same function but one with (WMS(Reflector)) and one with (WMS(Standard)) 
+They Display the image set to display the feature for ``` pranay:IND_pj ```
+### WMS(Standard)
 ```
 <!doctype html>
 <html lang="en">
