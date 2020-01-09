@@ -43,8 +43,8 @@ The main motive of this program was to make the program as readable, easy and sh
 | --------------------------------------------------- |  ---------------------------------------------------------------- |
 | * The main "PROS" small and simple code, than with ease understand and saving of time.          |      * The Main "PROS" of WMS(standard)is that it can do many other task just previewing one layer.  |
 | * The code is Readable and user friendly.           |     * That's why multiple layers could be displayed with more functionalities and adjusatability     |
-| * The main "CONS" of WMS Reflector is that it is only used to preview.       |  * The code is nor Readable neither user friendly.   |                     
-| * So only a Single Layer could be shown at a time i.e you cannot show even the base layer.   |     * The main "CONS" of this is that the code is complex, not easy to understand and also take more time than WMS(Reflector)          | 
+| * The main "CONS" of WMS Reflector is that it is only used to preview.       |   * The main "CONS" of this is that the code is complex, not easy to understand and also take more time than WMS(Reflector)  |                     
+| * So only a Single Layer could be shown at a time i.e you cannot show even the base layer.   |     * The code is nor Readable neither user friendly.          | 
 
 # Code Difference(WMS(Reflector) VS WMS(Standard)) 
 Here I will just provide you the code with the same function but one with (WMS(Reflector)) and one with (WMS(Standard)) 
