@@ -126,17 +126,16 @@ WMS(std) = (cons it is time consume and the code needs to be long and elongated
  ```
 ### Results
 You may clearly see the difference in the code and in this case one would surely choose the WMS(Reflector) as the best option.
-# how to use the code
+# How to use the code?
 * First you have to start your geoserver.
 * Then you may just open the html file in the chrome or start it using VsCode.
 * If you wnat to use it directly just copy and paste the link below.
 http://localhost:8080/geoserver/wms/reflect?format=application/openlayers&layers=pranay:IND_pj&width=800
-# why use my code
+# Why use my code?
 As, it is very simple and updated, and also very small, which saves time.
-# how is it so Small while other codes of same are verybig.
+
+# How is it so Small while other codes of same are verybig?
 First of all every things not worked for me right, it took me 2 days to research about open layers and geoserver but nothing works for me. Then suddenly when I was just reading Geoserver's 2.17.x documentation I came to know about a new feature." WMS Reflector".
-# WMS Reflector
-What WMS reflector do is it creates an open layer's layer or just make its image file.
 
 # Code Explaination
 * First of all i described that it is a HTML file.
